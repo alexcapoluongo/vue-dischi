@@ -4,7 +4,7 @@
       v-model="checkedSearch"
       @change="$emit('checkedCard', checkedSearch)"
       >
-      <option value="all">  ALL</option>
+      <option value="all"> ALL</option>
       <option value="rock">  ROCK</option>
       <option value="jazz">  JAZZ</option>
       <option value="pop">  POP</option>
@@ -29,7 +29,7 @@ export default {
 
 .filter-card {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: auto;
 }
 
@@ -39,8 +39,5 @@ select {
     height: 40px;
 }
 
-.option {
-    margin-left: 10px;
-}
 
-</style>
+</style> 
